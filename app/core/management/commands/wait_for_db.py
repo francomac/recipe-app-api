@@ -14,7 +14,7 @@ class Command(BaseCommand):
 
     def handle(self, *args, **options):
         self.stdout.write("Waiting for database...")
-        self.stdout.write("Database available YES!")
+        self.stdout.write("Database available YES YES!")
         db_up = False
 
         while db_up is False:
